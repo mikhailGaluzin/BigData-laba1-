@@ -1,6 +1,6 @@
 import scala.util.Random
 
-val numbers = (1 to 10).map(_ => Random.nextInt)
+val numbers = (1 to 10).map(_ => Random.nextInt(100))
 println(numbers)
 
 val count = countDef(numbers)
